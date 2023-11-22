@@ -39,7 +39,7 @@ const Projects = () => {
           <div className='app__projects-content-project-info'>
             <h2>QuantumMind AI Solutions</h2>
             <p>A frontend for a software company pushing the boundaries of current AI technology. AI is a fascinating technology that will only become more prevalent in the future across many industries.</p>
-            <a href="https://quantummindais.carlboothsoftware.co.uk"><button type='button' className='app__projects-content-project-button'>More Info</button></a>
+            <a href="https://quantummindaisolutions.carlboothsoftware.co.uk"><button type='button' className='app__projects-content-project-button'>More Info</button></a>
           </div>
         </div>      
       </div>
