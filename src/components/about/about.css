@@ -81,3 +81,78 @@
     padding: 0 1rem;
     color: #000000;
 }
+
+@media screen and (max-width: 1250px) {
+    .app__about-content-info {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .app__about-head h1 {
+        font-size: 62px;
+    }
+
+    .app__about-head p {
+        font-size: 18px;
+    }
+    
+    .app__about-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3rem;
+    }
+
+    .app__about-content-info {
+        width: 90%;
+    }
+
+    .app__about-content-info h2 {
+        font-size: 30px;
+    }
+
+    .app__about-content-info p {
+        font-size: 18px;
+    }
+
+    .app__about-content-skills {
+        width: 90%;
+        margin-bottom: 2rem;
+    }
+
+    .app__about-content-skills h2 {
+        font-size: 30px;
+    }
+    
+}
+
+@media screen and (max-width: 550px) {
+    .app__about-head h1 {
+        font-size: 40px;
+        margin-top: 3rem;
+    }
+
+    .app__about-head p {
+        font-size: 16px;
+    }
+
+    .app__about-content-info h2 {
+        font-size: 28px;
+    }
+
+    .app__about-content-info p {
+        font-size: 16px;
+    }
+
+    .app__about-content-skills h2 {
+        font-size: 28px;
+    }
+    
+}
+
+@media screen and (max-width: 350px) {
+    #app__about-content-info-button {
+        width: 200px;
+    }
+}

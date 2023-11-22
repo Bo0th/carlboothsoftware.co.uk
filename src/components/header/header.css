@@ -22,21 +22,35 @@
     color: var(--color-text);
 }
 
-/* .app__header button {
-    width: 240px;
-    height: 60px;
-    background: var(--color-10);
-    outline: none;
-    border-radius: 15px;
-    border: none;
-    box-shadow: var(--color-30);
-    text-transform: uppercase;
-    font-size: 20px;
-    font-weight: bold;
-    margin: 2rem 0;
-    color: var(--background);
+@media screen and (max-width: 1250px) {
+
 }
 
-.app__header button:hover {
-    background: var(--color-30);
-} */
+@media screen and (max-width: 950px) {
+    .app__header h1 {
+        font-size: 62px;
+    }
+
+    .app__header p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .app__header h1 {
+        font-size: 40px;
+        margin: 0 0.5rem;
+        text-align: center;
+    }
+
+    .app__header p {
+        font-size: 16px;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    #app__header-button {
+        width: 200px;
+    }
+}

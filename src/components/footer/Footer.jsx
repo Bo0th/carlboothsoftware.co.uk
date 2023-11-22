@@ -8,7 +8,7 @@ const Footer = () => {
       <div className='app__footer-head'>
         <div className='app__footer-head-left'>
           <h3>Carl Booth</h3>
-          <p>A frontend focussed web developer who takes passion in building the frontend of websites or applications and wants to help you with your next project</p>
+          <p className='app__footer-head-left-info'>A frontend focussed web developer who takes passion in building the frontend of websites or applications and wants to help you with your next project</p>
           <br />
           <p>Carl.booth23@gmail.com</p>
           <p>07872-954-594</p>

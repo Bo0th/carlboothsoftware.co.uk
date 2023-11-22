@@ -28,7 +28,7 @@ const About = () => {
             <p>I'm also an avid musician, gamer and miniature painter who takes pleasure in engaging with all these communities on top of coding. </p>
             <br />
             <p>I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then please <strong>get in touch</strong>. </p>
-            <HashLink to='/#contact'><button type='button'>Contact</button></HashLink>
+            <HashLink to='/#contact'><button type='button' id='app__about-content-info-button'>Contact</button></HashLink>
         </div>
         <div className='app__about-content-skills'>
             <h2>My Skills</h2>

@@ -120,6 +120,10 @@
     .app__navbar-links-smallscreen a {
         text-decoration: none;
     }
+
+    .app__navbar-links-smallscreen-burger {
+        padding: 1rem;
+    }
     
     .app__navbar-links-smallscreen-burger:hover {
         color: var(--color-10);
@@ -133,6 +137,10 @@
 @media screen and (max-width: 550px) {
     .app__navbar-profile img {
         display: none;
+    }
+
+    .app__navbar-profile h1 {
+        padding: 1rem;
     }
 }
 

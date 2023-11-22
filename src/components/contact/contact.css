@@ -11,6 +11,8 @@
 .app__contact-head {
     text-align: center;
     margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .app__contact-head h1 {
@@ -60,4 +62,66 @@
 
 .app__contact-form button {
     align-self: end;
+}
+
+@media screen and (max-width: 1250px) {
+    .app__contact-form {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .app__contact {
+        justify-content: start;
+    }
+
+    .app__contact-head {
+        margin: 3rem 0 0 0;
+        align-items: center;
+    }
+
+    .app__contact-head h1 {
+        font-size: 62px;
+    }
+    
+    .app__contact-head p {
+        font-size: 18px;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .app__contact-head h1 {
+        font-size: 40px;
+    }
+    
+    .app__contact-head p {
+        font-size: 16px;
+    }
+
+    .app__contact-form {
+        width: 80%;
+    }
+
+    .app__contact-form input {
+        height: 30px;
+        font-size: 1.2rem;
+    }
+    
+    .app__contact-form textarea {
+        font-size: 1.2rem;
+        height: 3a00px;
+    }
+    
+    .app__contact-form button {
+        align-self: end;
+    }
+
+
+}
+
+@media screen and (max-width: 350px) {
+    #app__content-form-button {
+        width: 200px;
+    }
 }
