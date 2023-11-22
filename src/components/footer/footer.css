@@ -1,0 +1,45 @@
+.app__footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.app__footer-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.app__footer-head h3 {
+    font-size: 24px;
+    color: var(--color-textHeading);
+}
+
+.app__footer-head p {
+    width: 40%;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: var(--color-text);
+}
+
+.app__footer-head-links-icon {
+    width: 30px;
+    height: 30px;
+    padding: 0 0.5rem;
+    color: var(--color-text);
+    cursor: pointer;
+}
+
+.app__footer-break {
+    border: 1px solid var(--color-text);
+    margin: 1rem 0;
+    width: 80%;
+}
+
+.app__footer-copyright {
+    font-size: 16px;
+    line-height: 1.5em;
+    color: var(--color-text);
+}

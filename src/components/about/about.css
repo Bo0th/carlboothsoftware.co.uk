@@ -1,0 +1,79 @@
+.app__about {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:center ;
+}
+
+.app__about-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.app__about-head h1 {
+    font-size: 86px;
+    text-transform: uppercase;
+    color: var(--color-textHeading);}
+
+.app__about-head p {
+    font-size: 22px;
+    line-height: 1.5em;
+    width: 80%;
+    text-align: center;
+    color: var(--color-text);
+}
+
+.app__about-content {
+    display: flex;
+    justify-content:center;
+}
+
+.app__about-content-info {
+    width: 40%;
+}
+
+.app__about-content-info h2 {
+    font-size: 38px;
+    color: var(--color-textHeading);
+}
+
+.app__about-content-info p {
+    font-size: 20px;
+    line-height: 1.5em;
+    width: 80%;
+    color: var(--color-text);
+}
+
+.app__about-content-skills {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.app__about-content-skills h2 {
+    font-size: 38px;
+    color: var(--color-textHeading);}
+
+.app__about-content-skills-cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.app__skillCard {
+    margin: 1rem 1rem 1rem 0;
+    border: 1px solid rgba(255, 255, 255, 0.643);
+    border-radius: 8px;
+    height: 40px;
+    background: #ffffff5a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app__skillCard p {
+    padding: 0 1rem;
+    color: #000000;
+}

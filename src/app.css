@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Paaji 2';
+    scroll-behavior: smooth;
+    /* color: #fff; */
+}
+
+:root {
+    --background: #000000bb;
+    --color-text:#ffffffa2;
+    --color-textHeading:#ffffffe4;
+    --color-60: #282A3A;
+    --color-30: #acff2f56;
+    --color-10: greenyellow;
+}
+
+html {
+    background: var(--color-60);
+    min-height: 100vh;
+}
+
+button {
+    width: 240px;
+    height: 60px;
+    background: var(--color-10);
+    outline: none;
+    border-radius: 15px;
+    border: none;
+    box-shadow: var(--color-30);
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 2rem 0;
+    color: var(--background);
+}
+
+button:hover {
+    background: var(--color-30);
+}
+
+button:active {
+    opacity: 0.25;
+}
