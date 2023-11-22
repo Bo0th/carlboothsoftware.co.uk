@@ -73,6 +73,10 @@
     align-items: center;
 }
 
+.app__skillCard:hover {
+    background: #ffffffb5;
+}
+
 .app__skillCard p {
     padding: 0 1rem;
     color: #000000;
