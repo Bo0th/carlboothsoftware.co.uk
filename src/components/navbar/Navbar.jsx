@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom/cjs/react-router-dom';
 import profileImage from '../../assets/profileImage.jpg'
 import { RxHamburgerMenu } from "react-icons/rx";
 import './navbar.css'
+import { HashLink } from 'react-router-hash-link';
 
 const Navbar = () => {
   const [displayMenu, setDisplayMenu] = useState(false)
@@ -14,19 +15,19 @@ const Navbar = () => {
         <h1>Carl Booth</h1>
       </div>
       <div className='app__navbar-links'>
-        <Link to="/#home"><a href=""></a>Home</Link>
-        <Link to="/#about"><a href=""></a>About</Link>
-        <Link to="/#projects"><a href=""></a>Projects</Link>
-        <Link to="/#contact"><a href=""></a>Contact</Link>
+        <HashLink to="/#home"><a href=""></a>Home</HashLink>
+        <HashLink to="/#about"><a href=""></a>About</HashLink>
+        <HashLink to="/#projects"><a href=""></a>Projects</HashLink>
+        <HashLink to="/#contact"><a href=""></a>Contact</HashLink>
       </div>
 
       <div className='app__navbar-links-smallscreen'>
         {displayMenu ?         
           <div className='app__navbar-links-smallscreen-menu'>
-            <Link to="/" onClick={() => setDisplayMenu(false)}>Home</Link>
-            <Link to="/" onClick={() => setDisplayMenu(false)}>About</Link>
-            <Link to="/" onClick={() => setDisplayMenu(false)}>Projects</Link>
-            <Link to="/" onClick={() => setDisplayMenu(false)}>Contact</Link>
+            <HashLink to="/#home" onClick={() => setDisplayMenu(false)}>Home</HashLink>
+            <HashLink to="/#about" onClick={() => setDisplayMenu(false)}>About</HashLink>
+            <HashLink to="/#projects" onClick={() => setDisplayMenu(false)}>Projects</HashLink>
+            <HashLink to="/#contact" onClick={() => setDisplayMenu(false)}>Contact</HashLink>
           </div>
           :  
           <RxHamburgerMenu className='app__navbar-links-smallscreen-burger' onClick={() => setDisplayMenu(true)}/>

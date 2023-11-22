@@ -20,6 +20,8 @@ const Contact = () => {
       </div>
       <div className='app__contact-form'>
         <form action="https://formsubmit.co/carl.booth23@gmail.com" method="POST">
+          <input type="hidden" name="_next" value="http://localhost:3000/thanks" />
+          <input type="hidden" name="_captcha" value="false" />
           <label htmlFor="name">Name</label>
           <input type="text" name='name' id='name' placeholder=' Enter your name' required />
           <label htmlFor="email">Email</label>

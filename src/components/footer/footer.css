@@ -32,6 +32,14 @@
     cursor: pointer;
 }
 
+.app__footer-head-links-icon:hover{
+    color: var(--color-10);
+}
+
+.app__footer-head-links-icon:active {
+    color: var(--color-30);
+}
+
 .app__footer-break {
     border: 1px solid var(--color-text);
     margin: 1rem 0;

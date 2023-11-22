@@ -21,7 +21,7 @@ const Footer = () => {
       </div>
       <div className='app__footer-break'></div>
       <div className='app__footer-copyright'>
-        <p>© Copright 2023. Made by <strong>Carl Booth</strong></p>
+        <p>© Copright 2023. Website developed by <strong>Carl Booth</strong></p>
       </div>
     </div>
   )
