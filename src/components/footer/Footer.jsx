@@ -1,5 +1,6 @@
 import React from 'react'
 import { BsGithub, BsLinkedin, BsFileEarmarkPdf } from "react-icons/bs";
+import { Carl_Booth_CV } from '../../assets';
 import './footer.css'
 
 const Footer = () => {
@@ -14,9 +15,9 @@ const Footer = () => {
           <p>07872-954-594</p>
         </div>
         <div className='app__footer-head-links'>
-          <BsLinkedin className='app__footer-head-links-icon' />
-          <BsGithub className='app__footer-head-links-icon'/>
-          <BsFileEarmarkPdf className='app__footer-head-links-icon'/>
+          <a href="https://linkedin.com/in/carlboothsoftware" target='_blank' rel="noreferrer"><BsLinkedin className='app__footer-head-links-icon' /></a>
+          <a href="https://github.com/Bo0th" target='_blank' rel="noreferrer"><BsGithub className='app__footer-head-links-icon'/></a>
+          <a href={Carl_Booth_CV} download><BsFileEarmarkPdf className='app__footer-head-links-icon'/></a>
         </div>
       </div>
       <div className='app__footer-break'></div>

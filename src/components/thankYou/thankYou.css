@@ -4,11 +4,13 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 3rem;
 }
 
 .app__thankYou h1 {
     font-size: 64px;
     text-transform: uppercase;
+    text-align: center;
     color: var(--color-textHeading);
     margin-bottom: 1rem;
 }
@@ -19,5 +21,33 @@
     width: 80%;
     color: var(--color-text);
     text-align: center;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
+}
+
+
+@media screen and (max-width: 500px) {
+    .app__thankYou h1 {
+        font-size: 48px;
+    }
+    
+    .app__thankYou h2 {
+        font-size: 24px;
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .app__thankYou {
+        padding: 0;
+    }
+
+    .app__thankYou h1 {
+        font-size: 40px;
+        margin-top: 3rem;
+    }
+    
+    .app__thankYou h2 {
+        font-size: 18px;
+        margin-bottom: 0;
+    }
 }

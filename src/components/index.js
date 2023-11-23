@@ -5,6 +5,7 @@ import Navbar from "./navbar/Navbar";
 import Projects from "./projects/Projects";
 import About from "./about/About";
 import ThankYou from "./thankYou/ThankYou";
+import SideBar from "./sideBar/SideBar";
 
 export {
     Contact,
@@ -13,5 +14,6 @@ export {
     Navbar,
     Projects,
     About,
-    ThankYou
+    ThankYou,
+    SideBar
 }

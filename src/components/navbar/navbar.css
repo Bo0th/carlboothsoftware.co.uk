@@ -9,6 +9,7 @@
     user-select: none;
     text-transform: uppercase;
     color: var(--color-text);
+    z-index: 5;
 }
 
 .app__navbar-profile {
@@ -111,7 +112,7 @@
 
     .app__navbar-links-smallscreen {
         display: flex;
-        justify-content: end;
+        justify-content: flex-end;
         font-size: 36px;   
         cursor: pointer;
 

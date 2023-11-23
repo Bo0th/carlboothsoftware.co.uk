@@ -1,0 +1,45 @@
+.app__sideBar {
+    position: absolute;
+    left: 0;
+    top: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0.5rem;
+    background-color: #282A3A;
+    border-radius: 5px;
+}
+
+.app__sideBar-icon {
+    color: #fff;
+    margin: 1rem 0.5rem;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.app__sideBar-icon:hover {
+    color: var(--color-10);
+}
+
+.app__sideBar-icon:active {
+    color: var(--color-30);
+}
+
+@media screen and (max-width: 700px) {
+    .app__sideBar {
+        position: relative;
+        top:auto;
+        left: auto;
+        flex-direction: row;
+        margin: 3rem 0;
+    }
+
+    .app__sideBar-icon {
+        margin: 1rem 0.5rem;
+    }
+}

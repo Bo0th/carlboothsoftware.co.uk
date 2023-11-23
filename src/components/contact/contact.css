@@ -110,18 +110,17 @@
     
     .app__contact-form textarea {
         font-size: 1.2rem;
-        height: 3a00px;
+        height: 275px;
     }
     
     .app__contact-form button {
-        align-self: end;
+        align-self: center;
+        width: 100%;
     }
 
 
 }
 
 @media screen and (max-width: 350px) {
-    #app__content-form-button {
-        width: 200px;
-    }
+
 }

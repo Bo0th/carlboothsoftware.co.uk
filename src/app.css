@@ -20,6 +20,22 @@ html {
     min-height: 100vh;
 }
 
+.app__NavSeparater {
+    height: 122px;
+}
+
+@media screen and (max-width: 550px) {
+    .app__NavSeparater {
+        height: 96px;
+    }
+}
+
+@media screen and (max-width: 250px) {
+    .app__NavSeparater {
+        height: 118px;
+    }
+}
+
 button {
     width: 240px;
     height: 60px;
