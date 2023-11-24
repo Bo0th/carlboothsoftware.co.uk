@@ -16,7 +16,7 @@ const Contact = () => {
     <div className='app__contact' id='contact'>
       <div className='app__contact-head'>
         <h1>Contact</h1>
-        <p>Feel free to contact me using the form below and I will respond to you as soon as possible</p>
+        <p>Feel free to contact me using the form below and I will respond to you as soon as possible. Alternatively my direct info is on my CV which you can download at the top or bottom of this page, you can also connect with me on <a href="https://www.linkedin.com/in/carlboothsoftware/" target='_blank'>Linkedin</a> if you wish.</p>
       </div>
       <div className='app__contact-form'>
         <form action="https://formsubmit.co/carl.booth23@gmail.com" method="POST">

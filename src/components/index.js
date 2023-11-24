@@ -6,6 +6,8 @@ import Projects from "./projects/Projects";
 import About from "./about/About";
 import ThankYou from "./thankYou/ThankYou";
 import SideBar from "./sideBar/SideBar";
+import MoreInfo from "./moreInfo/MoreInfo";
+import SkillCard from "./skillCard/SkillCard";
 
 export {
     Contact,
@@ -15,5 +17,7 @@ export {
     Projects,
     About,
     ThankYou,
-    SideBar
+    SideBar,
+    MoreInfo,
+    SkillCard
 }

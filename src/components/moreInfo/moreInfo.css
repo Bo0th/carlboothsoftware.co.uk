@@ -1,0 +1,173 @@
+.app__moreInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.app__moreInfo-head {
+    background: var(--background);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    min-height: 75vh;
+}
+
+.app__moreInfo-head h1{
+    font-size: 86px;
+    text-transform: uppercase;
+    color: var(--color-textHeading);
+}
+
+.app__moreInfo-head p {
+    font-size: 22px;
+    line-height: 1.5em;
+    width: 80%;
+    text-align: center;
+    color: var(--color-text);
+    width: 80%;
+}
+
+.app__moreInfo-content {
+    padding-top: 5rem;
+    background: #333647;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.app__moreInfo-content img {
+    height: auto;
+    max-width: 700px;
+    width: 80%;
+}
+
+.app__moreInfo-content-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.app__moreInfo-content-container img {
+    justify-self: center;
+    align-self: center;
+    width: 60%;
+    margin-bottom: 2rem;
+}
+
+.app__moreInfo-content h2 {
+    font-size: 38px;
+    color: var(--color-textHeading);
+    padding: 2rem 0 0 0;
+}
+
+.app__moreInfo-content-description {
+    font-size: 22px;
+    line-height: 1.5em;
+    text-align: start;
+    color: var(--color-text);
+    margin-bottom: 3rem;
+}
+
+.app__moreInfo-content-description a{
+    color: var(--color-10);
+}
+
+.app__moreInfo-content-description a:hover{
+    color:var(--color-textHeading);
+}
+
+.app__moreInfo-content-skillCard {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
+
+.app__moreInfo-content-buttons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;    
+}
+
+.app__moreInfo-content-buttons a {
+   padding: 1rem 2rem 1rem 0;
+}
+
+#app__moreInfo-backButton {
+    background: #ffffff5a;
+    border: 2px solid var(--color-10);
+    color: #333647;
+}
+
+#app__moreInfo-backButton:hover {
+    background: #ffffffb5;
+}
+
+#app__moreInfo-backButton:active {
+    opacity: 0.35;
+}
+
+@media screen and (max-width:950px) {
+    .app__moreInfo-content-container {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .app__moreInfo-content-buttons {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .app__moreInfo-content-buttons a {
+        padding: 0;
+    }
+
+    #app__moreInfo-backButton {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .app__moreInfo-head h1{
+        font-size: 48px;
+    }
+    
+    .app__moreInfo-head p {
+        font-size: 18px;
+    }
+
+    .app__moreInfo-content h2 {
+        font-size: 34px;
+    }
+    
+    .app__moreInfo-content-description {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:300px) {
+    .app__moreInfo-content-container {
+        width: 100%;
+        align-items: center;
+    }
+
+    .app__moreInfo-content-description {
+        text-align: center;
+    }
+
+    .app__moreInfo-content-skillCard {
+        justify-content: center;
+
+    }
+}
+
+

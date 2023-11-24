@@ -13,6 +13,7 @@
     margin-top: 8rem;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .app__contact-head h1 {
@@ -26,6 +27,15 @@
     line-height: 1.5em;
     text-align: center;
     color: var(--color-text);
+    width: 80%;
+}
+
+.app__contact-head p a {
+    color: var(--color-10);
+}
+
+.app__contact-head p a:hover {
+    color: var(--color-textHeading);
 }
 
 .app__contact-form {

@@ -1,6 +1,7 @@
 import React from 'react'
-import './projects.css'
+import { HashLink } from 'react-router-hash-link'
 import { videoGameSuggesterImage, hoobankImage, gerichtImage, quantumMindAISImage } from '../../assets'
+import './projects.css'
 
 const Projects = () => {
   return (
@@ -14,32 +15,32 @@ const Projects = () => {
           <img src={videoGameSuggesterImage} alt="video game suggester image" />  
           <div className='app__projects-content-project-info'>
             <h2>Video Game Suggester</h2>
-            <p>My Video Game Suggester app was conceived from my passion for gaming and is a tool used for video game discovery. It suggests a game based on a selected platform from a pool of over 850k+ games. </p>
-            <a href="https://videogamesuggester.carlboothsoftware.co.uk" target='_blank'><button type='button' className='app__projects-content-project-button'>More Info</button></a>
+            <p>A tool used for video game discovery, get a random suggestion from 850k+ games or browse the catalogue.</p>
+            <HashLink to="/MoreInfo/VideoGameSuggester#app__moreInfo"><button type='button' className='app__projects-content-project-button'>More Info</button></HashLink>
           </div>
         </div>
         <div className='app__projects-content-project'>
           <img src={hoobankImage} alt="hoobank image" />
           <div className='app__projects-content-project-info'>
             <h2>Hoobank</h2>
-            <p>Hoobank is a banking platform revolutionizing next generation payment methods to improve customer experience. </p>
-            <a href="https://hoobank.carlboothsoftware.co.uk" target='_blank'><button type='button' className='app__projects-content-project-button'>More Info</button></a>
+            <p>A landing page designed for a bank.</p>
+            <HashLink to="/MoreInfo/Hoobank#app__moreInfo" ><button type='button' className='app__projects-content-project-button'>More Info</button></HashLink>
           </div>
         </div>        
         <div className='app__projects-content-project'>
           <img src={gerichtImage} alt="gericht image" />
           <div className='app__projects-content-project-info'>
             <h2>Gericht</h2>
-            <p>This landing page is built for a restaurant and is made to look attractive in order to entice potential customers into booking a table.</p>
-            <a href="https://sotto.carlboothsoftware.co.uk" target='_blank'><button type='button' className='app__projects-content-project-button'>More Info</button></a>
+            <p>A landing page designed for a restaurant.</p>
+            <HashLink to="/MoreInfo/Gericht#app__moreInfo" ><button type='button' className='app__projects-content-project-button'>More Info</button></HashLink>
           </div>
         </div>
         <div className='app__projects-content-project'>
           <img src={quantumMindAISImage} alt="quantimMindAIS image" />
           <div className='app__projects-content-project-info'>
             <h2>QuantumMind AI Solutions</h2>
-            <p>A frontend for a software company pushing the boundaries of current AI technology. AI is a fascinating technology that will only become more prevalent in the future across many industries.</p>
-            <a href="https://quantummindaisolutions.carlboothsoftware.co.uk" target='_blank'><button type='button' className='app__projects-content-project-button'>More Info</button></a>
+            <p>A landing page designed for a software company.</p>
+            <HashLink to="/MoreInfo/QuantumMindAIS#app__moreInfo" ><button type='button' className='app__projects-content-project-button'>More Info</button></HashLink>
           </div>
         </div>      
       </div>

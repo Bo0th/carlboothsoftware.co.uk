@@ -1,14 +1,7 @@
 import React from 'react'
 import { HashLink } from 'react-router-hash-link'
 import './about.css'
-
-const SkillCard = ({skill}) => {
-    return (
-        <div className='app__skillCard'>
-            <p>{skill}</p>
-        </div>
-    )
-}
+import SkillCard from '../skillCard/SkillCard'
 
 const About = () => {
 
@@ -18,7 +11,7 @@ const About = () => {
     <div className='app__about' id='about'>
       <div className='app__about-head'>
         <h1>About Me</h1>
-        <p>Here you will find more information about me, what I do and my current skills mostly in terms of programming and technology</p>
+        <p>Here you will find more information about me, what I do and my current skills. Use the contact button below if you would like to get in touch or use the links to my <strong>Linkedin</strong>, <strong>Github</strong> and <strong>CV</strong> at the top and bottom of this page </p>
       </div>
       <div className='app__about-content'>
         <div className='app__about-content-info'>
