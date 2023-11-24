@@ -7,6 +7,13 @@
     min-height: 100vh;
 }
 
+.app__projects::before {
+    content: '';
+    display: block;
+    height: 40px;
+    visibility: hidden;
+}
+
 .app__projects-head {
     display: flex;
     flex-direction: column;

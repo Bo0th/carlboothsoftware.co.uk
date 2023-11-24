@@ -8,6 +8,13 @@
     user-select: none;
 }
 
+.app__header::before {
+    content: '';
+    display: block;
+    height: 122px;
+    visibility: hidden;
+}
+
 .app__header h1 {
     font-size: 86px;
     text-transform: uppercase;

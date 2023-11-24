@@ -6,6 +6,13 @@
     align-items:center ;
 }
 
+.app__about::before {
+    content: '';
+    display: block;
+    height: 122px;
+    visibility: hidden;
+}
+
 .app__about-head {
     display: flex;
     flex-direction: column;

@@ -5,6 +5,13 @@
     justify-content: center;
 }
 
+.app__moreInfo::before {
+    content: '';
+    display: block;
+    height: 30px;
+    visibility: hidden;
+}
+
 .app__moreInfo-head {
     background: var(--background);
     width: 100%;
@@ -19,6 +26,7 @@
     font-size: 86px;
     text-transform: uppercase;
     color: var(--color-textHeading);
+    text-align: center;
 }
 
 .app__moreInfo-head p {
@@ -139,6 +147,7 @@
 @media screen and (max-width:500px) {
     .app__moreInfo-head h1{
         font-size: 48px;
+        margin-top: 120px;
     }
     
     .app__moreInfo-head p {

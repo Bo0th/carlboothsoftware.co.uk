@@ -8,6 +8,13 @@
     padding-bottom: 3rem;
 }
 
+.app__contact::before {
+    content: '';
+    display: block;
+    height: 122px;
+    visibility: hidden;
+}
+
 .app__contact-head {
     text-align: center;
     margin-top: 8rem;

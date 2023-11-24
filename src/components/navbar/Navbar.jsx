@@ -15,10 +15,10 @@ const Navbar = () => {
         <h1>Carl Booth</h1>
       </div>
       <div className='app__navbar-links'>
-        <HashLink to="/#home"><a href=""></a>Home</HashLink>
-        <HashLink to="/#about"><a href=""></a>About</HashLink>
-        <HashLink to="/#projects"><a href=""></a>Projects</HashLink>
-        <HashLink to="/#contact"><a href=""></a>Contact</HashLink>
+        <HashLink to="/#home">Home</HashLink>
+        <HashLink to="/#about">About</HashLink>
+        <HashLink to="/#projects" >Projects</HashLink>
+        <HashLink to="/#contact">Contact</HashLink>
       </div>
 
       <div className='app__navbar-links-smallscreen'>
